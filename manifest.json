@@ -1,0 +1,15 @@
+{
+  "name": "New Tabby",
+  "version": "0.0.1",
+  "description": "See a list of adoptable pets with each new tab",
+  "author": "jpchou",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "chrome_url_overrides": {
+    "newtab": "html/new_tab.html"
+  },
+  "manifest_version": 2
+}
